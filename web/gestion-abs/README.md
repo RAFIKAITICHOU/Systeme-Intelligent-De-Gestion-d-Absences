@@ -1,6 +1,4 @@
-Voici les autres sections du fichier `README.md` enrichies avec le contenu fourni :
 
-``` markdown
 # Système Intelligent de Gestion des Absences : Cas de l'ENS Marrakech (absENS)
 
 ## Résumé du Projet
