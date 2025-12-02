@@ -13,4 +13,8 @@
 13. ./vendor/bin/sail npm run dev
 
 
-
+1. docker compose down --volumes
+2. docker compose up -d
+3. docker exec -it gestion-abs-laravel.test-1  bash
+4. php artisan migrate:refresh
+5. php artisan db:seed
