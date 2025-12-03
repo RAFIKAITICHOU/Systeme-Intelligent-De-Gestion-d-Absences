@@ -1,86 +1,127 @@
-# 🎓 Système intelligent de gestion des absences - AbsENS
+# Système Intelligent de Gestion des Absences : Cas de l'ENS Marrakech (absENS)
 
-<img src="web/gestion-abs/images/emsi1.png" alt="Logo EMSI" width="150"/>
-<img src="web/gestion-abs/images/ens.png" alt="Logo ENS" width="150" align="right"/>
+<p align="center">
+  <img src="images/logo_ens.png" alt="Logo ENS Marrakech" width="180">
+  <img src="images/logo_absens.png" alt="Logo absENS" width="180">
+</p>
 
----
-## Architecture du dossier
-```bash
+## 📌 Résumé du Projet
 
-app
-   |-mobile (android)
-   |-web    (Laravel)
-   |-Système électronique
-
-```
----
-
-## 📌 Présentation
-
-Ce projet de stage a pour objectif la **conception et la mise en œuvre d’un système intelligent de gestion des absences**, destiné à un établissement universitaire comme l'ENS Marrakech.
-
-Le système est basé sur une **architecture modulaire** et intègre des composants Web, Mobile, et Embarqué (Raspberry Pi) pour automatiser la détection, le contrôle et le suivi des absences.
+Ce projet de stage a consisté en la conception et la mise en œuvre d'une solution numérique intelligente, nommée **absENS**, destinée à automatiser la gestion des absences au sein de l’ENS Marrakech.  
+Le système regroupe une application web, une application mobile Android et un dispositif embarqué Raspberry Pi.
 
 ---
 
-## 🧠 Fonctionnalités principales
+## 🏫 Contexte
 
-- Authentification sécurisée multi-profils (Admin, Professeur, Étudiant)
-- Scan de QR Code avec caméra Raspberry Pi
-- Détection des entrées via OpenCV
-- Tableau de bord centralisé des présences
-- Export PDF, statistiques, calendrier
-- Application mobile Android pour les étudiants
+Le projet a été réalisé au sein du Département d’Informatique de l’ENS Marrakech, dans le cadre d’un stage académique visant à moderniser la gestion traditionnelle des présences (papier, Excel).
 
 ---
 
-## 🧰 Technologies utilisées
+## ❗ Problématique
 
-| Catégorie        | Technologies                                                                 |
-|------------------|------------------------------------------------------------------------------|
-| Backend          | Laravel 10, MySQL, API REST avec Sanctum                                    |
-| Frontend         | Blade, Bootstrap 5, FullCalendar, Chart.js                                  |
-| Mobile           | Android Studio, Java, Retrofit                                               |
-| Embarqué         | Raspberry Pi, Python, OpenCV                                                 |
-| Outils Dev       | GitHub, Docker, VS Code, Notion, Discord                                     |
-| Librairies clés  | Spatie Roles & Permissions, DomPDF, Bootstrap Icons                         |
+Les méthodes actuelles sont :
 
+- Non automatisées  
+- Sujettes aux erreurs  
+- Non accessibles en temps réel  
+- Difficiles à maintenir
 
----
-
-## 📊 Diagrammes UML
-
-### 🔹 Cas d’utilisation (Use Case)
-
-![usecase](web/gestion-abs/images/usecase1.png)
-![usecase](web/gestion-absimages/usecase2.png)
-
-### 🔹 Diagramme de calsse
-
-![calsse](web/gestion-abs/images/calss.png)
-
-<!-- ### 🔹 Architecture globale -->
-
-<!-- ![architecture](web/gestion-absimages/conception_schema_global.png) -->
+👉 Objectif : créer une **solution sécurisée, rapide, intelligente**, basée sur QR Codes + Vision par ordinateur.
 
 ---
 
-## 👨‍🏫 Références académiques
+## 🎯 Objectifs du Projet
 
-- **Étudiant** : AIT ICHOU Rafik  
-- **Encadrant** : Pr. NAIT MALEK Youssef (ENS Marrakech)  
-- **Établissements** :
+### ✔️ Objectifs Fonctionnels
+- Lecture de QR code unique
+- Gestion par rôles (Étudiant, Enseignant, Admin)
+- Consultation des absences & statistiques
+- Justification par l'administration
+- Fenêtre temporelle d’accès : *15 min avant → 5 min après*
 
-  <a href="https://emsi.ma/"><img src="web/gestion-abs/images/emsi1.png" width="100"/> EMSI Marrakech </a>
-  <a href="https://ens.uca.ma/"><img src="web/gestion-abs/images/ens.png" width="100"/> ENS Marrakech </a>
-  
+### ✔️ Objectifs Techniques
+- Laravel, MySQL, API REST (Sanctum)
+- Android (Java)
+- Raspberry Pi + caméra
+- Vision par ordinateur avec OpenCV
+- Temps de réponse < 2 secondes
 
 ---
 
-## 📬 Contact
+## 🛠️ Technologies Utilisées
 
-Pour toute question, vous pouvez me contacter :
+### Backend
+- PHP / Laravel  
+- MySQL  
+- API REST (Sanctum)  
+- DomPDF, Simple-Qrcode  
+- Spatie Laravel Permission
 
-**Email** : a.ichou.rafik@gmail.com  
+### Frontend
+- HTML/CSS/JS  
+- Bootstrap  
+- FullCalendar  
+- Chart.js  
+- Android (Java)
 
+### Outils
+- VS Code  
+- GitHub  
+- Docker  
+- StarUML  
+- Notion  
+- Déploiement : Sevalla
+
+---
+
+# 🖼️ Diagrammes UML
+
+## 🎭 Diagramme de Cas d'Utilisation (Use Case)
+
+<p align="center">
+  <img src="images/usecase_absens.png" alt="Diagramme de cas d'utilisation absENS" width="700">
+</p>
+
+---
+
+## 🧩 Diagramme de Classes
+
+<p align="center">
+  <img src="images/class_diagram_absens.png" alt="Diagramme de classes absENS" width="800">
+</p>
+
+---
+
+# 🧱 Architecture Globale du Système
+
+<p align="center">
+  <img src="images/architecture_absens.png" alt="Architecture générale du système absENS" width="900">
+</p>
+
+---
+
+# 🔌 Composante Matérielle
+
+<p align="center">
+  <img src="images/raspberrypi_module.png" alt="Module Raspberry Pi absENS" width="550">
+</p>
+
+---
+
+# 📷 Fonctionnement Global du Système
+
+1. L’étudiant scanne son QR code → Raspberry Pi envoie la présence à l’API.  
+2. La caméra de salle analyse les présences réelles via OpenCV.  
+3. L’enseignant valide la séance via web/mobile.  
+4. L’administration consulte les statistiques globales.
+
+---
+
+## 👨‍💻 Auteur
+
+Projet réalisé dans le cadre d’un stage au  
+**Département d’Informatique – ENS Marrakech**.
+
+---
 
