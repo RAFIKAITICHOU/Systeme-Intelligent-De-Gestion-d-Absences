@@ -1,8 +1,8 @@
 # Système Intelligent de Gestion des Absences : Cas de l'ENS Marrakech (absENS)
 
 <p align="center">
-  <img src="images/logo_ens.png" alt="Logo ENS Marrakech" width="180">
-  <img src="images/logo_absens.png" alt="Logo absENS" width="180">
+  <img src="/web/gestion-abs/images/ens.png" alt="Logo ENS Marrakech" width="180">
+  <img src="/web/gestion-abs/images/emsi1.png" alt="Logo emsi" width="180">
 </p>
 
 ## 📌 Résumé du Projet
@@ -80,7 +80,8 @@ Les méthodes actuelles sont :
 ## 🎭 Diagramme de Cas d'Utilisation (Use Case)
 
 <p align="center">
-  <img src="images/usecase_absens.png" alt="Diagramme de cas d'utilisation absENS" width="700">
+  <img src="/web/gestion-abs/images/usecase1.png" alt="Diagramme de cas d'utilisation absENS" width="700">
+  <img src="/web/gestion-abs/images/usecase2.png" alt="Diagramme de cas d'utilisation absENS" width="700">
 </p>
 
 ---
@@ -88,7 +89,7 @@ Les méthodes actuelles sont :
 ## 🧩 Diagramme de Classes
 
 <p align="center">
-  <img src="images/class_diagram_absens.png" alt="Diagramme de classes absENS" width="800">
+  <img src="/web/gestion-abs/images/calss.png" alt="Diagramme de classes absENS" width="800">
 </p>
 
 ---
@@ -96,7 +97,7 @@ Les méthodes actuelles sont :
 # 🧱 Architecture Globale du Système
 
 <p align="center">
-  <img src="images/architecture_absens.png" alt="Architecture générale du système absENS" width="900">
+  <img src="/web/gestion-abs/images/image.jpg" alt="Architecture générale du système absENS" width="900">
 </p>
 
 ---
@@ -104,7 +105,8 @@ Les méthodes actuelles sont :
 # 🔌 Composante Matérielle
 
 <p align="center">
-  <img src="images/raspberrypi_module.png" alt="Module Raspberry Pi absENS" width="550">
+  <img src="/web/gestion-abs/images/schema.png" alt="Module Raspberry Pi absENS" width="550">
+  <img src="/web/gestion-abs/images/systemesAbs.jpeg" alt="Module Raspberry Pi absENS" width="550">
 </p>
 
 ---
