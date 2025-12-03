@@ -120,7 +120,24 @@ Les méthodes actuelles sont :
 
 ---
 
-## 👨‍💻 Auteur
+
+## 👨‍🏫 Références académiques
+
+- **Réalisé par** : AIT ICHOU Rafik  
+- **Encadré par** : Pr. NAIT MALEK Youssef - ENS Marrakech
+- **Établissements** : ENS
+
+---
+
+## 📬 Contact
+
+Pour toute question, vous pouvez me contacter :
+
+**Email** : a.ichou.rafik@gmail.com  
+
+---
+
+##
 
 Projet réalisé dans le cadre d’un stage au  
 **Département d’Informatique – ENS Marrakech**.
