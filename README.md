@@ -1,9 +1,9 @@
 # Système Intelligent de Gestion des Absences : Cas de l'ENS Marrakech (absENS)
 
-<p align="center"> 
-  <img src="/web/gestion-abs/images/ens.png" alt="Logo EMSI" width="120" align="left"/>
-  <img src="/web/gestion-abs/images/emsi1.png" alt="Logo ENS" width="120" align="right"/>
- </p>
+<p align="center">
+  <img src="/web/gestion-abs/images/ens.png" alt="Logo ENS Marrakech" width="180">
+  <img src="/web/gestion-abs/images/emsi1.png" alt="Logo emsi" width="180">
+</p>
 
 ## 📌 Résumé du Projet
 
