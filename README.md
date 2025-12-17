@@ -105,8 +105,8 @@ Les méthodes actuelles sont :
 
 <p align="center">
   <img src="/web/gestion-abs/images/schema.png" alt="Module Raspberry Pi absENS" width="550">
-  <img src="/web/gestion-abs/images/sh6.jpg" alt="Raspberry Pi absENS" width="550">
-  <img src="/web/gestion-abs/images/systemesAbs.jpeg" alt="Module Raspberry Pi absENS" width="550">
+  <img src="/web/gestion-abs/images/sh6.jpg" alt="Raspberry Pi absENS" width="350">
+  <img src="/web/gestion-abs/images/systemesAbs.jpeg" alt="Module Raspberry Pi absENS" width="350">
 </p>
 
 ---
