@@ -105,7 +105,41 @@ Les méthodes actuelles sont :
 
 <p align="center">
   <img src="/web/gestion-abs/images/schema.png" alt="Module Raspberry Pi absENS" width="550">
+  <img src="/web/gestion-abs/images/sh6.jpg" alt="Raspberry Pi absENS" width="550">
   <img src="/web/gestion-abs/images/systemesAbs.jpeg" alt="Module Raspberry Pi absENS" width="550">
+</p>
+
+---
+# Des Captures d’Écran
+<p align="center"> Captures d’Écran de l'Authontification</p>
+
+<p align="center">
+  <img src="/web/gestion-abs/images/auth.jpg" alt="" width="550">
+  <img src="/web/gestion-abs/images/au3.png" alt="" width="550">
+</p>
+
+<p align="center"> Captures d’Écran de l'espace administration</p>
+
+<p align="center">
+  <img src="/web/gestion-abs/images/a1.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/a18.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/a20.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/a22.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/a6.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/a14.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/a12aaa.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/a26.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/a35.png" alt="" width="550">
+</p>
+
+<p align="center"> Captures d’Écran de l'espace l'étudiant</p>
+
+<p align="center">
+  <img src="/web/gestion-abs/images/e1.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/e4.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/emailAbs.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/e5.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/e6.png" alt="" width="550">
 </p>
 
 ---
