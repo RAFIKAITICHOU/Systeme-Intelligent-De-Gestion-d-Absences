@@ -132,7 +132,7 @@ Les méthodes actuelles sont :
 
 Pour toute question, vous pouvez me contacter :
 
-**Email** : a.ichou.rafik@gmail.com  
+**Email** : rafikaitichou@gmail.com  
 
 ---
 

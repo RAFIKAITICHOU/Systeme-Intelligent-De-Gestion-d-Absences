@@ -1,55 +1,57 @@
 # 🛡️ Security Policy / Politique de Sécurité
 
+Ce projet est privé et soumis à droits réservés (All Rights Reserved).
+
 ---
 
 ## 🇫🇷 Politique de Sécurité (FR)
 
 ### 📌 Versions maintenues
 
-Ce projet applique des correctifs de sécurité uniquement sur la branche principale `main`.
+La sécurité est appliquée uniquement sur la branche principale `main`.
 
-| Version | Statut       |
-| ------- | ------------ |
+| Version | Statut      |
+| ------- | ----------- |
 | main    | ✅ Maintenue |
 
 ---
 
 ### 🚨 Signaler une vulnérabilité
 
-Si vous découvrez une faille de sécurité, merci de suivre les étapes ci-dessous :
+Si vous découvrez une faille de sécurité :
 
-1. **Ne publiez pas l'information publiquement.**
-2. Contactez-nous de manière privée via :
-   - Email : **a.ichou.rafik@gmail.com**
-   - Ou ouvrez une _Issue_ GitHub avec le label **security**.
+1. **Ne publiez pas l’information publiquement.**
+2. Contactez l’auteur de manière privée :
+
+   * Email : **[rafikaitichou@gmail.com](mailto:rafikaitichou@gmail.com)**
+   * Ou via GitHub Issue marquée **security**
 
 Merci de fournir :
 
-- Une description claire de la vulnérabilité
-- Les étapes pour la reproduire
-- L’impact potentiel
+* Description claire de la vulnérabilité
+* Étapes pour la reproduire
+* Impact potentiel
 
-Nous vous répondrons sous **72h**.
+Une réponse sera apportée sous **72 heures**.
 
 ---
 
 ### 🧩 Processus de traitement
 
-- Accusé de réception dans un délai de **72 heures**
-- Analyse et validation du rapport
-- Correction de la vulnérabilité (si confirmée)
-- Publication du correctif
-- Notification du rapporteur une fois résolu
+* Accusé de réception sous **72 heures**
+* Analyse et validation
+* Correction si vulnérabilité confirmée
+* Notification du correcteur à la résolution
 
 ---
 
 ### 🔐 Bonnes pratiques
 
-- Ne jamais commiter de données sensibles (mots de passe, clés, tokens, `.env`, …)
-- Utiliser des variables d’environnement
-- Tenir les dépendances du projet à jour
-- Valider toutes les entrées utilisateur
-- Éviter les injections SQL, XSS, CSRF, etc.
+* Ne jamais commiter de données sensibles (mots de passe, clés, tokens, `.env`, …)
+* Utiliser des variables d’environnement
+* Tenir les dépendances du projet à jour
+* Valider toutes les entrées utilisateur
+* Prévenir injections SQL, XSS, CSRF, etc.
 
 ---
 
@@ -57,28 +59,29 @@ Nous vous répondrons sous **72h**.
 
 ### 📌 Supported Versions
 
-Security updates are provided only for the `main` branch.
+Security updates are applied only on the `main` branch.
 
-| Version | Status       |
-| ------- | ------------ |
+| Version | Status      |
+| ------- | ----------- |
 | main    | ✅ Supported |
 
 ---
 
 ### 🚨 Reporting a Vulnerability
 
-If you discover a security issue, please follow these steps:
+If you discover a security issue:
 
-1. **Do not disclose the issue publicly.**
-2. Contact us privately via:
-   - Email: **a.ichou.rafik@gmail.com**
-   - Or open a GitHub Issue labelled **security**.
+1. **Do not disclose it publicly.**
+2. Contact the author privately:
+
+   * Email: **[rafikaitichou@gmail.com](mailto:rafikaitichou@gmail.com)**
+   * Or open a GitHub Issue labelled **security**
 
 Please include:
 
-- A clear description of the vulnerability
-- Steps to reproduce it
-- The potential impact
+* Clear description of the vulnerability
+* Steps to reproduce it
+* Potential impact
 
 We will respond within **72 hours**.
 
@@ -86,22 +89,21 @@ We will respond within **72 hours**.
 
 ### 🧩 Response Process
 
-- Acknowledgement within **72 hours**
-- Investigation and validation
-- Fixing the vulnerability if confirmed
-- Release of a security update
-- Notification to the reporter when resolved
+* Acknowledgement within **72 hours**
+* Investigation and validation
+* Fix if confirmed
+* Notify reporter when resolved
 
 ---
 
 ### 🔐 Best Practices
 
-- Do not commit sensitive data (passwords, keys, tokens, `.env`)
-- Use environment variables
-- Keep dependencies updated
-- Validate all user inputs
-- Prevent SQL injection, XSS, CSRF, etc.
+* Do not commit sensitive data (passwords, keys, tokens, `.env`)
+* Use environment variables
+* Keep dependencies updated
+* Validate all user inputs
+* Prevent SQL injection, XSS, CSRF, etc.
 
 ---
 
-## ✔️ Merci d’aider à maintenir ce projet sécurisé / Thank you for helping keep this project secure.
+## ✔️ Ce projet est privé / This project is private (All Rights Reserved)
