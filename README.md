@@ -111,14 +111,14 @@ Les méthodes actuelles sont :
 
 ---
 # Des Captures d’Écran
-<p align="center"> Captures d’Écran de l'Authontification</p>
+<p align="center"> <br>Captures d’Écran de l'Authontification</br></p>
 
 <p align="center">
   <img src="/web/gestion-abs/images/auth.jpg" alt="" width="550">
-  <img src="/web/gestion-abs/images/au3.png" alt="" width="550">
+  <img src="/web/gestion-abs/images/au3.png" alt="" width="350">
 </p>
 
-<p align="center"> Captures d’Écran de l'espace administration</p>
+<p align="center"> <br>Captures d’Écran de l'espace administration</br></p>
 
 <p align="center">
   <img src="/web/gestion-abs/images/a1.png" alt="" width="550">
@@ -132,7 +132,7 @@ Les méthodes actuelles sont :
   <img src="/web/gestion-abs/images/a35.png" alt="" width="550">
 </p>
 
-<p align="center"> Captures d’Écran de l'espace l'étudiant</p>
+<p align="center"> <br>Captures d’Écran de l'espace l'étudiant</br></p>
 
 <p align="center">
   <img src="/web/gestion-abs/images/e1.png" alt="" width="550">
