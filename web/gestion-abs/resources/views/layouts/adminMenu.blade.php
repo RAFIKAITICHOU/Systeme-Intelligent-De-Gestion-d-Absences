@@ -434,7 +434,8 @@
     <!-- Footer -->
     <footer class="content-footer">
       <div class="footer text-center py-3">
-        <span>&copy; {{ date('Y') }} <b class="text-dark">Gestion des absences - AIT ICHOU</b>. Tous droits réservés</span>
+        <span>&copy; {{ date('Y') }} <b class="text-dark">Gestion des absences - AIT ICHOU</b>. Tous droits réservés</span><br>
+        <span><b class="text-dark">ICHOU IT</b></span>
       </div>
     </footer>
   </div>
