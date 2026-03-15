@@ -1,9 +1,5 @@
 # Système Intelligent de Gestion des Absences : Cas de l'ENS Marrakech (absENS)
 
-<p align="center">
-  <img src="/web/gestion-abs/images/emsi1.png" alt="Logo emsi" width="180">
-</p>
-
 ## 📌 Résumé du Projet
 
 Ce projet de stage a consisté en la conception et la mise en œuvre d'une solution numérique intelligente, nommée **absENS**, destinée à automatiser la gestion des absences au sein de l’ENS Marrakech.  
@@ -70,7 +66,7 @@ Les méthodes actuelles sont :
 - Docker  
 - StarUML  
 - Notion  
-- Déploiement : Sevalla
+- Déploiement : Sevalla (Pour Le Teste)
 
 ---
 
@@ -172,10 +168,12 @@ Pour toute question, vous pouvez me contacter :
 
 ##
 
-Projet réalisé dans le cadre d’un stage au  
-**Département d’Informatique – ENS Marrakech**.
+Projet réalisé au **Département d’Informatique – ENS Marrakech**.
 <p align="center">
   <img src="/web/gestion-abs/images/ens.png" alt="Logo ENS Marrakech" width="180">
+</p>
+<p align="center">
+  ICHOU IT
 </p>
 
 ---
